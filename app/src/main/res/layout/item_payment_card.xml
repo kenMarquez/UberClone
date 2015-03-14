@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="@dimen/credit_size"
+        android:layout_height="@dimen/credit_size"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/credit_card_large_paypal"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_card"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"
+        android:text="xxxx 1234" />
+</LinearLayout>

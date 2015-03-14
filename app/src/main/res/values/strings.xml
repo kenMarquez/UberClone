@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Uper</string>
+
+    <string name="title_section1">PROFILE</string>
+    <string name="title_section2">PAYMENT</string>
+    <string name="title_section3">PROMOTIONS</string>
+    <string name="title_section4">SHARE</string>
+    <string name="title_section5">SUPPORT</string>
+    <string name="title_section6">ABOUT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ACCOUNT</string>
+    <string name="title_activity_payment">Payment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="ok">ENCENDER</string>
+    <string name="aply_code_promo">Enter Promo Code</string>
+    <string name="apply">APPLY</string>
+    <string name="head_share">Send friends  free rides and you\'ll get one too,\n worth MEX $150</string>
+    <string name="title_section0">HOME</string>
+    <string name="head_share2">CONNECTED ACOUNTS</string>
+    <string name="connect">Connect Spotify</string>
+    <string name="home"> <b>Home</b>\n Pase de Reforma 223 </string>
+    <string name="work"><b>Work</b>\n Ingrese Trabajo</string>
+    <string name="head_payment_fragment">TUS TARJETAS</string>
+    <string name="enter_card">Ingresa el numero de tu tarjeta</string>
+    <string name="title_activity_autocomplete">AutocompleteActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="singup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="hint_phone">55-42-34-12-91</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="title_activity_login">Login</string>
+    <string name="restore_password">Forgot your password</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="hint_aa">AA</string>
+    <string name="hint_mm">MM</string>
+    <string name="hint_tarjeta">Número de tarjeta de credito</string>
+    <string name="hint_codigo_postal">CÓDIGO POSTAL</string>
+    <string name="registrarse_button">Regístrate</string>
+    <string name="terminos_payment">TÉRMINOS DEL SERVICIO Y POLITICA DE PRIVACIDAD</string>
+    <string name="progress_signup">Sing your up....</string>
+    <string name="error_sing_up">Error al intentar iniciar seción</string>
+    <string name="title_activity_dispatch">DispatchActivity</string>
+    <string name="progress_login">Login....</string>
+    <string name="key_tel">tel</string>
+    <string name="key_pass">pass</string>
+    <string name="key_first_name">firstName</string>
+    <string name="key_last_name">lastName</string>
+    <string name="key_mail">mail</string>
+    <string name="logout">Logout</string>
+    <string name="key_cp">cp</string>
+    <string name="key_cvv">cvv</string>
+    <string name="key_country">country</string>
+    <string name="key_mm">mm</string>
+    <string name="key_aa">aa</string>
+    <string name="key_no_tarjeta">no_tarjeta</string>
+    <string name="countrt">Mexico</string>
+    <string name="key_credit_card_object">CreditCard</string>
+    <string name="relation_card_user">parent</string>
+    <string name="key_saved_info">savedInfo</string>
+    <string name="key_notsaved_info">notSaved</string>
+    <string name="key_credit_default">key_credit_default</string>
+    <string name="key_credit_card_set">key_set_credit_card</string>
+    <string name="Loading_Info">Loading Info....</string>
+    <string name="loading_info">Loading Info....</string>
+    <string name="saved_info">saved_info</string>
+</resources>

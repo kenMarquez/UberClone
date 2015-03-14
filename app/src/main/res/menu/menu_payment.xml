@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.ken.devf.uper.PaymentActivity">
+    <item
+        android:id="@+id/add_credit_card"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/credit_card_large"
+        app:showAsAction="always" />
+</menu>

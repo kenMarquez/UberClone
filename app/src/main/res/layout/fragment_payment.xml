@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.ken.devf.uper.Fragments.PaymentFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_account"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/heads"
+        android:text="@string/head_payment_fragment" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/heads"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/tv_account" />
+
+    <ListView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/list_credit_cards"
+        android:layout_below="@id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

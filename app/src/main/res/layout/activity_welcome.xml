@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="mx.ken.devf.uper.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/margin_login"
+        android:layout_marginRight="@dimen/margin_login"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/button_material_light"
+            android:text="@string/login"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:id="@+id/login_button"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.009" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/singup"
+            android:id="@+id/singup_button"
+            android:background="@color/button_material_light"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

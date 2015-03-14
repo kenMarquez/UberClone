@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="mx.ken.devf.uper.Fragments.ProfileFragment"
+        android:id="@+id/last_name_text_view">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_account"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/heads"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/heads"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView"
+            android:layout_below="@+id/tv_account" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circle2"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:text=" Ken"
+            android:layout_marginLeft="30dp"
+            android:textSize="21sp"
+            android:id="@+id/name_tv"
+            android:layout_below="@+id/textView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbb"
+            android:layout_below="@+id/name_tv"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@id/name_tv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="10dp"
+            android:text=" Márquez"
+            android:textSize="21sp"
+            android:id="@+id/lata_name_text_view"
+            android:layout_below="@+id/name_tv"
+            android:layout_alignStart="@+id/name_tv" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbb"
+            android:layout_below="@+id/lata_name_text_view"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@id/lata_name_text_view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/mail_tv"
+            android:text=" darius_dam@hotmail.com"
+            android:layout_below="@+id/imageView"
+            android:layout_alignStart="@+id/tv_account" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbb"
+            android:layout_below="@+id/mail_tv"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@id/mail_tv" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text=" +52 686 158 2192"
+            android:textSize="19sp"
+            android:id="@+id/tel_tv"
+            android:layout_below="@+id/mail_tv"
+            android:layout_alignStart="@+id/mail_tv" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbb"
+            android:layout_below="@+id/tel_tv"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@id/tel_tv" />
+
+        <!--SECTION 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/head2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tel_tv"
+            android:textColor="@color/heads"
+            android:text="@string/head_share2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/heads"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divisor2"
+            android:layout_below="@+id/head2" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="9dp"
+            android:layout_alignStart="@+id/head2"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/divisor2"
+            android:src="@drawable/spotify" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/connect"
+            android:id="@+id/text_connect_face"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+        <!--SECTION 3-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/head3"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/imageView2"
+            android:textColor="@color/heads"
+            android:text="@string/head_share2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/heads"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/divisor3"
+            android:layout_below="@+id/head3" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/linear_profile_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_below="@+id/divisor3"
+            android:layout_alignStart="@+id/head3">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_store_black_"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:maxLines="20"
+                android:layout_height="wrap_content"
+                android:text="@string/home" />
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:id="@+id/image_profile_edit_home"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_border_color_grey" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbb"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/linear_profile_home"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@id/linear_profile_home" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/linear_profile_work"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/linear_profile_home"
+            android:layout_alignStart="@+id/head3">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_store_black_"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:maxLines="20"
+                android:layout_height="wrap_content"
+                android:text="@string/work" />
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:id="@+id/image_profile_edit_work"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_border_color_grey" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout_button"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/linear_profile_work"
+            android:background="@color/accent_material_light"
+            android:text="@string/logout"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
